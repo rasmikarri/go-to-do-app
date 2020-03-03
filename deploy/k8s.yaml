@@ -120,7 +120,7 @@ spec:
         run: todo-app
     spec:
       containers:
-      - image: biqmind/todo-app
+      - image: biqmind/todo-app:pretty
         name: todo-app
         ports:
         - containerPort: 3000
