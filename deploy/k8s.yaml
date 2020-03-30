@@ -146,7 +146,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   volumeMode: Filesystem
-  storageClassName: example-nfs
+  storageClassName: default
   resources:
     requests:
       storage: 1Gi
